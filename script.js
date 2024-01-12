@@ -1,16 +1,15 @@
 'use strict';
 
 
-const arr = [1,2,4,77,111,100,55,23,323,1111, 21321,];
+ const arr = [1,2,4,77,111,100,55,23,323,1111, 21321];
+  // Сортировка массиву:
+ arr.sort(function(a,b){
+     return a - b;
+ });
+ console.log(arr);
+ // Вирізати з 2 по 4(включно) єлемент массиву:
+ let newArr = arr.splice(1,4);
+ // Вивод стокового Arr зі змінами:
+ console.log(newArr);
 
-// Сортировка массиву:
 
-let arrSrt = arr.sort();
-console.log(arrSrt);
-
-// Вирізати з 2 по 4(включно) єлемент массиву:
-let newArr = arr.splice(2, 4);
-console.log(newArr);
-
-// Вивод стокового Arr зі змінами:
-console.log(arr)
