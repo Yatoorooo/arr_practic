@@ -8,7 +8,7 @@
  });
  console.log(arr);
  // Вирізати з 2 по 4(включно) єлемент массиву:
- let newArr = arr.splice(1,4);
+ let newArr = arr.splice(1,3);
  // Вивод стокового Arr зі змінами:
  console.log(newArr);
 
